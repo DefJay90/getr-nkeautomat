@@ -1,3 +1,9 @@
+///Informatik Projekt 2018:
+///Projektthema: Getränkeautomat
+///Teilnehmer: Hendrik Müller (4449948), Sönke Salmen (4438480)
+
+
+
 /// Dies ist das Programm zur Steuerung der Pumpen. Es empfängt das Jeweils gewählte Getränk und die ausgewählte Milliliteranzahl. 
 /// Daraufhin werden die jeweiligen Pumpen aktiviert.
 
@@ -76,6 +82,9 @@ void loop() {
         }
 
         Zeit =  333 + Zeit * 1000 / 29  ;            // Die Pumpe pumpt 29 ml pro sekunde.
+
+/// Ab hier werden die benötigten Getränke ausgegeben.
+
 
         if (Getraenk == 1) {               //Apfelsaft
           Ledschaltung_1();
